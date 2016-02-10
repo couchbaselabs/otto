@@ -1,9 +1,10 @@
 package otto
 
 import (
-	. "./terst"
-	"github.com/robertkrimen/otto/underscore"
 	"testing"
+
+	. "./terst"
+	"github.com/couchbaselabs/otto/underscore"
 )
 
 func init() {

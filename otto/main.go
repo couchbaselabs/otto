@@ -3,10 +3,11 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/robertkrimen/otto"
-	"github.com/robertkrimen/otto/underscore"
 	"io/ioutil"
 	"os"
+
+	"github.com/couchbaselabs/otto"
+	"github.com/couchbaselabs/otto/underscore"
 )
 
 var underscoreFlag *bool = flag.Bool("underscore", true, "Load underscore into the runtime environment")

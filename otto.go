@@ -107,8 +107,9 @@ package otto
 
 import (
 	"fmt"
-	"github.com/robertkrimen/otto/registry"
 	"strings"
+
+	"github.com/couchbaselabs/otto/registry"
 )
 
 // Otto is the representation of the JavaScript runtime. Each instance of Otto has a self-contained namespace.

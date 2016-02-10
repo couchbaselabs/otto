@@ -1,11 +1,12 @@
 package otto
 
 import (
-	. "./terst"
-	"github.com/robertkrimen/otto/underscore"
 	"math"
 	"strings"
 	"testing"
+
+	. "./terst"
+	"github.com/couchbaselabs/otto/underscore"
 )
 
 var (
